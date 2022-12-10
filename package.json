@@ -2,14 +2,11 @@
   "name": "todo-list-reactjs-ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gabriellopesglp.github.io/todo-list-reactjs-ts",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
